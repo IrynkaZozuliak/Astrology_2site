@@ -9,8 +9,39 @@
     <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
+    <header class="header">
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></div>
+    </header>
+    <main>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-stars-say.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-personal-readings.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-personal-consultation.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-horoscope.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-contacts-one.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-astrology-school.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-time-days.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-testimonials.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-my-books.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-instagram.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-kate-sun.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-contact-form-two.partial.html"></section>
+
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-contacts.partial.html"></section>
+    </main>
+    <footer>
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></nav>
+    </footer>
+  </body>
 </html>
