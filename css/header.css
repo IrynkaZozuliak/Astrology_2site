@@ -1,5 +1,4 @@
-
-.header_image {
+.header__nav {
     background: url(/img/background/background1.jpg);
     background-size: cover;
     background-position: center;
@@ -8,20 +7,17 @@
     padding: 0;
     flex-direction: column;
     overflow-x: hidden;
-    
+    padding-top: 20px;
+      padding-bottom: 25px;
     }
     
-    .position_header_blok {
-      margin-top: 20px;
-      margin-bottom: 25px;
-      
-    }
-    .image_header_logo {
+   
+    .header__logo-image {
         width: 97px;
     }
     
     
-    .menu_link {
+    .header__menu_link {
         display: flex;
         flex-direction: row;
         justify-content:space-around;
@@ -34,7 +30,7 @@
     
     
     @media only screen and (min-width:320px) and (max-width:477px) {
-      .menu_link   {
+      .header__menu_link   {
         justify-content:space-between;
          
         margin-left: 25px;
@@ -43,7 +39,7 @@
     }
     
     @media only screen and (min-width:477px) and (max-width:901px) {
-      .menu_link   {
+      .header__menu_link   {
         justify-content:space-between;
         margin-left: 35px;
         margin-right: 35px;
@@ -51,7 +47,7 @@
     }
     
     @media only screen and (min-width:901px) and (max-width:1200px) {
-      .menu_link   {
+      .header__menu_link   {
         gap: 15px;
         margin-left: 15px;
         margin-right: 15px;
@@ -62,7 +58,7 @@
     
     
     
-    .nav-bar ul {
+    .header__nav-bar ul {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -71,12 +67,12 @@
       }
     
       @media only screen and (min-width:320px) and (max-width:477px)  {
-        .nav-bar ul  {
+        .header__nav-bar ul  {
           gap: 15px;
         }
     }
     
-      .nav-bar ul li a {
+      .header__nav-bar ul li a {
         text-decoration: none;
       
       }
@@ -136,7 +132,7 @@
         margin: 6px 0;
       }
       
-      .nav-bar {
+      .header__nav-bar {
         height: 0;
         position: absolute;
         top: 0px;
@@ -149,11 +145,11 @@
         z-index: 0;
       }
       
-      .nav-bar.active {
+      .header__nav-bar.active {
         height: 5600px;
       }
       
-      .nav-bar ul {
+      .header__nav-bar ul {
         display: block;
         width: fit-content;
         margin: 100px auto 0 auto;
@@ -163,12 +159,12 @@
       }
     
       
-      .nav-bar li {
+      .header__nav-bar li {
         display: flex;
        justify-content: center;
       }
       
-      .nav-bar.active ul {
+      .header__nav-bar.active ul {
         opacity: 1;
       }
       .nav__menu-link {
