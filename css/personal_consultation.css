@@ -1,0 +1,209 @@
+.blok_personal_consultation_top {
+    background: url(/img/background/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+
+
+    .personal_consultation_blok_position {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .hh2_personal_consultation_text {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #4f4949;
+        line-height: 1.3;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+        .hh2_personal_consultation_text {
+            font-size: 34px;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:991px) {
+        .hh2_personal_consultation_text {
+            font-size: 37px;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+    
+    .hhrr_line_size {
+        width: 60px;
+        height: 4px;
+        border: none;
+        color: #2ab6ff;
+        background: #2ab6ff;
+        margin-top: 15px;   
+    }
+
+.consultation_foto_text_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media only screen and (min-width:320px)  {
+    .consultation_foto_text_position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+    .foto_girl_blok_three {
+        width: 570px;
+        border-radius: 7px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+        .foto_girl_blok_three {
+            width: 330px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:768px) {
+        .foto_girl_blok_three {
+            width: 430px;
+        }
+    }
+
+    .foto_text_elements_consultation {
+        width: 570px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+        .foto_text_elements_consultation {
+            width: 350px;
+            margin-left: 15px;
+            margin-right: 10px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:768px) {
+        .foto_text_elements_consultation {
+            width: 430px;
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+    }
+
+.personal_consultation_elements_position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+    .logo_personal_consultation {
+        background: url(/img/person_consultat/fon_blok3.webp);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 70px;
+        height: 70px; 
+    }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .logo_personal_consultation {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    @media only screen and (min-width:477px) and (max-width:601px) {
+        .logo_personal_consultation {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .hh3_personal_consultation_textt {
+        font-size: 22px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: #322c2c;
+        line-height: 1.32;
+    }
+
+    .color_elements {
+        color: #fff;
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;    
+    }
+
+
+
+
+    .buttom_personal_consultation button[type="submit"] {
+        display: inline-block;
+        font-size: 16px;
+        background: #2ab6ff;
+        color: #ffffff;
+        border: 1px solid transparent;
+        cursor: pointer;
+        
+        transition: background 0.25s, color 0.25s;
+      }
+      
+      .buttom_personal_consultation button[type="submit"]:hover {
+        color: #fff;
+        background: #322c2c;
+      }
+    
+      .button__personal_consultation_container { 
+        width: 224px;
+        height: 44px;
+        border: none;
+        background-color: #2ab6ff;
+        text-align: center;
+        text-decoration: none;  
+        color: #322c2c;
+       
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        border-radius: 6px;
+        border-width: 5px;
+      }
+
+      .poooo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+      }
+    

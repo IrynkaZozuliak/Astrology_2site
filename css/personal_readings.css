@@ -1,0 +1,189 @@
+.blok_personal_readings_top {
+    background: url(/img/background/background2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+.personal_readings_position_text {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.hh2_personal_readings_text {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    line-height: 1.3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .hh2_personal_readings_text {
+        font-size: 34px;
+    }
+}
+
+.line_size_personal_read {
+    width: 60px;
+    height: 4px;
+    border: none;
+    color: #fff;
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.personal_read_elements_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+@media only screen and (min-width:320px)  {
+    .personal_read_elements_position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.personal_read_elements_color {
+    background-color: #fff;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.09);
+    
+}
+.hh3_pp_position {
+    margin: 25px 20px;
+}
+
+.foto_pread_position {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.foto_personal_readings {
+    width: 115px;
+}
+
+.foto_personal_readings_two {
+    width: 120px;
+}
+
+.hh3_personal_readings_textt {
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #322c2c;
+  line-height: 1.32;
+}
+
+.pp_personal_readings_one {
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+color: #808074;
+line-height: 1.56;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.pp_personal_readings_two {
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-style: normal;
+color: #808074;
+line-height: 1.56;
+}
+
+.prise_personal_read_position {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+
+.hh3_price_personal {
+    font-size: 30px;
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-style: normal;
+color: #181816;
+line-height: 1.56;
+
+}
+
+.line_price {
+    display: grid;
+    align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 35px;
+    border-right: 1px solid #000;
+}
+
+.hh4_price_personal {
+    font-size: 14px;
+font-family: "Roboto", sans-serif;
+color: #322c2c;
+font-weight: 300;
+text-decoration: line-through;
+display: flex;
+flex-direction: row;
+align-items: center;
+ 
+}
+
+
+
+.buttom_personal_readings button[type="submit"] {
+    display: inline-block;
+    font-size: 14px;
+    background: #2ab6ff;
+    color: #ffffff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+    transition: background 0.25s, color 0.25s;
+  }
+  
+  .buttom_personal_readings button[type="submit"]:hover {
+    color: #fff;
+    background: #322c2c;
+  }
+
+  .button__personal_container { 
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: #2ab6ff;
+    text-align: center;
+    text-decoration: none;  
+    color: #322c2c;
+   
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    border-width: 5px;
+  }

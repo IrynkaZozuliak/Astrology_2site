@@ -1,0 +1,463 @@
+
+.header_image {
+    background: url(/img/background/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+    }
+    
+    .position_header_blok {
+      margin-top: 20px;
+      margin-bottom: 25px;
+      
+    }
+    .image_header_logo {
+        width: 97px;
+    }
+    
+    
+    .menu_link {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 90px;
+        margin-right: 90px;  
+    }
+    
+    
+    
+    
+    @media only screen and (min-width:320px) and (max-width:477px) {
+      .menu_link   {
+        justify-content:space-between;
+         
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+    }
+    
+    @media only screen and (min-width:477px) and (max-width:901px) {
+      .menu_link   {
+        justify-content:space-between;
+        margin-left: 35px;
+        margin-right: 35px;
+      }
+    }
+    
+    @media only screen and (min-width:901px) and (max-width:1200px) {
+      .menu_link   {
+        gap: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+    
+    
+    
+    
+    
+    .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        list-style-type: none;
+      }
+    
+      @media only screen and (min-width:320px) and (max-width:477px)  {
+        .nav-bar ul  {
+          gap: 15px;
+        }
+    }
+    
+      .nav-bar ul li a {
+        text-decoration: none;
+      
+      }
+    
+    .nav__menu-link {
+        position: relative;
+        max-width: 100%;
+        color: #ffffff;
+        line-height: normal;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .nav__menu-link:hover {
+        color: #56b3e9;
+        transition: 0.2s;
+    }
+    
+    
+    
+      /* Стиль для підкреслення при наведенні */
+      .underline-effect::after {
+        content: '';
+        position: absolute;
+        width: 120%; /* Ширина трохи більше тексту */
+        transform: scaleX(0);
+        height: 2px;
+        bottom: -10px; /* З'являється на кілька пікселів нижче тексту */
+        left: -10%; /* Початок трохи зліва від тексту */
+        background-color: #00aaff; /* Блакитний колір */
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    .underline-effect:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    
+    
+    
+    
+    @media only screen and (max-width:901px) {
+        .hamburger  {
+          display: block;
+          cursor: pointer;
+          z-index: 1;
+        }
+      .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+      }
+      
+      .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #2a3034;
+        transition: 0.5s;
+        overflow: hidden;
+        z-index: 0;
+      }
+      
+      .nav-bar.active {
+        height: 5600px;
+      }
+      
+      .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 100px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+      }
+    
+      
+      .nav-bar li {
+        display: flex;
+       justify-content: center;
+      }
+      
+      .nav-bar.active ul {
+        opacity: 1;
+      }
+      .nav__menu-link {
+        margin-bottom: 12px;
+        padding: 10px 25px;
+        margin: 0 5px;
+        color: #fefefe; 
+      }
+    }
+    
+    
+    
+    .text_head_hh1_hh2 {
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+      margin-top: 205px;
+      margin-bottom: 355px;
+      gap: 30px;
+    }
+    
+    @media only screen and (min-width:320px) and (max-width:477px)  {
+      .text_head_hh1_hh2  {
+        margin-top: 110px;
+        margin-bottom: 150px;
+      }
+    }
+    
+    .hh1_head_property {
+      font-size: 72px;
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+        line-height: 1.05;
+        color: #fff;
+    }
+    
+    .hh2_head_property {
+      font-size: 30px;
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+        color: #fff;
+        line-height: 1.33;
+    }
+    
+    @media only screen and (min-width:320px) and (max-width:477px)  {
+      .hh1_head_property {
+        font-size: 56px;
+        text-align: center
+      }
+    }
+    
+    @media only screen and (min-width:320px) and (max-width:477px)  {
+      .hh2_head_property {
+        font-size: 24px;
+        text-align: center
+      }
+    }
+    
+    
+    
+    
+    @media only screen and (min-width:477px) and (max-width:991px)  {
+      .hh1_head_property {
+        font-size: 62px;
+        text-align: center
+      }
+    }
+    
+    @media only screen and (min-width:477px) and (max-width:991px)  {
+      .hh2_head_property {
+        font-size: 27px;
+        text-align: center
+      }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    *:focus,
+    *:active {
+        outline: none !important;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        color: #322c2c;
+        justify-content: center;
+    }
+    
+    .wrapper .icon {
+        position: relative;
+        background: #fff;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #322c2c;
+        border-radius: 50%;
+        padding: 15px;
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s;  
+    }
+    
+    .wrapper .icon:hover .tooltip {
+        top: -45px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+     
+    .wrapper .facebook:hover,
+    .wrapper .facebook:hover .tooltip,
+    .wrapper .facebook:hover .tooltip::before {
+        background: #2ab6ff;
+        color: #322c2c;
+    }
+    
+    .wrapper .instagram:hover,
+    .wrapper .instagram:hover .tooltip,
+    .wrapper .instagram:hover .tooltip::before {
+        background: #2ab6ff;
+        color: #322c2c;
+    }
+    
+    .wrapper .youtube:hover,
+    .wrapper .youtube:hover .tooltip,
+    .wrapper .youtube:hover .tooltip::before {
+        background: #2ab6ff;
+        color: #322c2c;
+    }
+    
+    
+    
+    
+    
+    
+     
+     
+      .buttom_header button[type="submit"] {
+          display: inline-block;
+          font-size: 18px;
+          background: #2ab6ff;
+          color: #ffffff;
+          border: 1px solid transparent;
+          cursor: pointer;
+          padding: 0.75rem 1.25rem;
+          transition: background 0.25s, color 0.25s;
+        }
+        
+        .buttom_header button[type="submit"]:hover {
+          color: #322c2c;
+          background: #fff;
+        }
+    
+        .button_container_one { 
+          width: 270px;
+          height: 50px;
+          border: none;
+          padding: 13px 34px;
+          background-color: #2ab6ff;
+          text-align: center;
+          text-decoration: none;
+           
+          color: #322c2c;
+         
+           
+          font-family: "Josefin Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          margin-top: 30px;
+          border-radius: 5px;
+          border-width: 5px;
+        }
+    
+    
+    
+    
+    
+    
+        
+    
+     /* Dropdown Button */
+    
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+     
+    }
+    
+    .dropdown li {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 210px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      border-radius: 3px;
+      z-index: 1;
+      top: -100%; /* Hide initially above */
+      left: 0;
+      transition: opacity 0.3s ease, visibility 0.3s, top 0.3s ease-in-out 0.3s;
+    }
+    
+    
+    /* Links inside the dropdown */
+    .dropdown-content li {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .dropdown-content a {
+      color: #4f4949;
+      padding: 8px 35px;
+      text-decoration: none;
+      display: block;
+    
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {color: #2ab6ff;
+      background-color: #ddd;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      visibility: visible;
+      top: 170%; /* Display below */
+    }
+    
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      visibility: visible;
+      top: 170%; 
+      /* Display below, use display: none to hide */
+      /* Add transition for opacity */
+      transition: opacity 0.1s ease;
+    }
+    
+    
+    
+    
+    .trycutnuk::after {
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid #ffffff; /* Колір стрілочки */
+      margin-left: 5px;
+      margin-top: -5px;
+      vertical-align: middle; /* Вирівнює стрілочку */
+    }
+    
+    

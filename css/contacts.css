@@ -1,0 +1,165 @@
+
+.blok_contacts_top {
+    background: url(/img/background/background13.png);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;    
+}
+.blok_contacts_position {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.hh2_contacts_text {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #4f4949;
+    line-height: 1.3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.hhrr_line_size {
+    width: 60px;
+    height: 4px;
+    border: none;
+    color: #2ab6ff;
+    background: #2ab6ff;
+    margin-top: 15px;   
+}
+
+@media only screen and (min-width:320px) and (max-width:601px)  {
+    .hh2_contacts_text  {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:991px)  {
+    .hh2_contacts_text  {
+        font-size: 37px;
+    }
+}
+
+.elements_contacts_positions_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+@media only screen and (min-width:320px) {
+    .elements_contacts_positions_cont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.elements_contacts_size_cont {
+    background-color: #fff;
+    width: 370px;
+    height: 240px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media only screen and (min-width:320px) and (max-width:601px)  {
+    .elements_contacts_size_cont {
+        width: 300px;
+        height: 200px; 
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:991px)  {
+    .elements_contacts_size_cont {
+        width: 330px;
+        height: 220px; 
+    }
+}
+
+.logo_contacts_element_foto {
+    background: url(/img/person_consultat/fon_blok3.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 70px;
+    height: 70px; 
+    margin-top: 35px;
+}
+
+@media only screen and (min-width:320px) and (max-width:601px)  {
+    .logo_contacts_element_foto {
+        width: 50px;
+        height: 50px; 
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:601px)  {
+    .logo_contacts_element_foto {
+        width: 60px;
+        height: 60px; 
+    }
+}
+
+.contactss_elements {
+    color: #fff;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.hh3_contacts_blok_text {
+    font-size: 22px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+   
+    color: #322c2c;
+    line-height: 1.32;
+}
+
+.pp_contacts_blok_text {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #808074;
+    line-height: 1.56;
+}
+
+.pp_contacts_blok_text_line {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #322c2c;
+    line-height: 1.56;
+    text-decoration: underline;
+}
+
+.pp_contacts_blok_text_line:hover {
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,281 @@
+.blok_contact_form_one_top {
+    background: url(/img/background/background5.jpg);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    border-image: fill 0 linear-gradient(90deg, rgba(141, 141, 141, 0.333), #0e0b0b);
+   
+
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover; 
+}
+
+   
+
+    .contact_form_blok_one_position {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 250px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+        .contact_form_blok_one_position {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 45px;
+        }
+    } 
+
+    @media only screen and (min-width:601px) and (max-width:991px) {
+        .contact_form_blok_one_position {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 57px;
+        }
+    } 
+
+    @media only screen and (min-width:991px) and (max-width:1250px) {
+        .contact_form_blok_one_position {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 70px;
+        }
+    } 
+
+    .title_text_hh2_line {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title_text_horoscope_position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+        .title_text_horoscope_position {
+            margin-left: 15px;
+            margin-right: 10px;
+        }
+    } 
+
+    @media only screen and (min-width:601px) and (max-width:768px) {
+        .title_text_horoscope_position {
+            margin-left: 25px;
+            margin-right: 20px;
+        }
+    }
+
+    @media only screen and (min-width:768px) and (max-width:991px) {
+        .title_text_horoscope_position {
+            margin-left: 30px;
+            margin-right: 25px;
+        }
+    }
+
+    @media only screen and (min-width:991px) and (max-width:1250px) {
+        .title_text_horoscope_position {
+            margin-left: 40px;
+            margin-right: 35px;
+        }
+    }
+
+    .hh2_text_elements_position {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .hh2_contact_form_text {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #fff;
+        line-height: 1.3;
+    }
+
+    .hh2_contact_form_text_type {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #2ab6ff;
+        line-height: 1.3;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+        .hh2_contact_form_text,
+        .hh2_contact_form_text_type {
+            font-size: 34px;
+        }
+    }
+    
+    @media only screen and (min-width:601px) and (max-width:991px) {
+        .hh2_contact_form_text,
+        .hh2_contact_form_text_type {
+            font-size: 37px;
+        }
+    } 
+    
+    .hhrr_line_size {
+        width: 60px;
+        height: 4px;
+        border: none;
+        color: #fff;
+        background: #fff;  
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .pp_contact_form_one {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #d8d8d8;
+        line-height: 1.39; 
+    }
+
+
+
+
+
+
+    .forma_botton_positions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .figura_position_horoscope_all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    
+ 
+    
+    .figura_position_horoscope {
+        width: 370px;
+        height: 50px;
+        background-color: rgba(119, 108, 108, 0.5);
+        border-style: solid;
+        border-color: rgba(97, 81, 81, 0.001);
+        border-radius: 5px;
+    
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.36;
+        color: #8f8c8c;
+        padding: 13px 18px;
+    }
+    
+    .figura_position_horoscope:focus{
+        border-color: rgb(81, 149, 228);}
+    
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .figura_position_horoscope {
+            width: 320px;
+        }
+    } 
+
+    .zodiak_text_one {
+        display: none;
+    }
+
+    .zodiak_text {
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.36;
+    }
+    
+    
+        /* CSS для оформлення контактної форми */
+       
+    
+        .form-group {
+            margin-bottom: 1px;
+        }
+    
+    
+        .form-group input[type="text"],
+        .form-group input[type="email"] {
+           
+            padding: 8px;
+            border-radius: 5px;
+        }
+    
+
+    
+
+        .buttom_phoroscope button[type="submit"] {
+            display: inline-block;
+            font-size: 16px;
+            background: #2ab6ff;
+            color: #ffffff;
+            border: 1px solid transparent;
+            cursor: pointer;
+            
+            transition: background 0.25s, color 0.25s;
+          }
+          
+          .buttom_phoroscope button[type="submit"]:hover {
+            color: #322c2c;
+            background: #fff;
+          }
+        
+          .button__horoscope_container { 
+            width: 370px;
+            height: 45px;
+            border: none;
+            background-color: #2ab6ff;
+            text-align: center;
+            text-decoration: none;  
+            color: #322c2c;
+           
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            border-radius: 6px;
+            border-width: 5px;
+          }
+    
+          .horoscope_position_botton {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 50px;
+          }
+        
+    
+
+          @media only screen and (min-width:320px) and (max-width:477px) {
+            .button__horoscope_container {
+                width: 320px;
+            }
+        } 
+    
+     

@@ -1,0 +1,273 @@
+.blok_testimonials_top {
+    background: url(/img/background/background8.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+
+
+    .testimonials_blok_position {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+
+    .hh2_testimonials_text {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #4f4949;
+        line-height: 1.3;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .hhrr_line_size {
+        width: 60px;
+        height: 4px;
+        border: none;
+        color: #2ab6ff;
+        background: #2ab6ff;
+        margin-top: 15px;   
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px) {
+      .hh2_testimonials_text {
+        font-size: 34px;
+        text-align: center;
+      }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:991px) {
+      .hh2_testimonials_text {
+        font-size: 37px;
+        text-align: center;
+      }
+    }
+
+
+   
+
+
+
+   
+
+    .testimonials_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    @media only screen and (min-width:320px)  {
+      .testimonials_container {
+          display: flex;
+          flex-wrap: wrap;
+      }
+  } 
+
+
+    .testimonials_wrapper {
+        max-width: 1170px;
+        width: 100%;
+        position: relative;
+      }
+
+      @media only screen and (min-width:320px) and (max-width:601px) {
+        .testimonials_wrapper {
+          width: 300px;
+        }
+      }
+
+      @media only screen and (min-width:601px) and (max-width:770px) {
+        .testimonials_wrapper {
+          width: 550px;
+        }
+      }
+
+      @media only screen and (min-width:770px) and (max-width:1200px) {
+        .testimonials_wrapper {
+          width: 750px;
+        }
+      }
+
+
+      .testimonials_wrapper i {
+        top: 50%;
+        cursor: pointer;
+        font-size: 1.75rem;
+        position: absolute;
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+        color: #808074;
+        margin-right: -10px;
+        margin-left: -10px;
+      }
+
+      @media only screen and (min-width:320px) and (max-width:477px) {
+        .testimonials_wrapper i {
+          margin-right: 15px;
+        margin-left: 15px;
+        padding: 3px 4px;
+        color: #fff;
+        font-size: 0.75rem;
+        border: solid #4f4949;
+        border-radius: 70%;
+        background-color: #4f4949;
+        }
+      }
+      
+
+      .testimonials_wrapper i:active{
+        transform: translateY(-50%) scale(0.85);
+      }
+      .testimonials_wrapper i:first-child{
+        left: -22px;
+      }
+      .testimonials_wrapper i:last-child{
+        right: -22px;
+      }
+      .testimonials_wrapper .carousel{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 2) - 15px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 30px;
+        
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+      }
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+      .carousel.no-transition {
+        scroll-behavior: auto;
+      }
+      .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+      }
+      .carousel.dragging .card {
+        cursor: grab;
+        user-select: none;
+      }
+      .carousel :where(.card, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel .card {
+        scroll-snap-align: start;
+        height: 340px;
+        list-style: none;
+        background: #fff;
+        cursor: pointer;
+        padding-bottom: 15px;
+        flex-direction: column;
+      }
+
+      @media only screen and (min-width:320px) and (max-width:601px) {
+        .carousel .card {
+          height: 470px;
+        }
+      }
+
+      @media only screen and (min-width:601px) and (max-width:991px) {
+        .carousel .card {
+          height: 500px;
+        }
+      }
+
+      @media only screen and (min-width:991px) and (max-width:1200px) {
+        .carousel .card {
+          height: 550px;
+        }
+      }
+      
+
+      .pp_cont_element_test {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color: #4f4949;
+        line-height: 1.56;
+
+        text-align: center;
+        margin-bottom: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:991px) {
+      .pp_cont_element_test {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+
+
+
+    .hh3_cont_element_test {
+        font-size: 22px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #56b3e9;
+        line-height: 1.32;
+    }
+
+
+    
+     
+      @media screen and (max-width: 900px) {
+        .testimonials_wrapper .carousel {
+          grid-auto-columns: calc((100% / 2) - 9px);
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .testimonials_wrapper .carousel {
+          grid-auto-columns: 100%;
+        }
+      }
+
+
+      .slider__dots {
+        display: flex;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        justify-content: center;
+        margin-top: 15px;
+         
+      }
+
+        .slider__dots-item {
+          width: 10px;
+          height: 10px;
+          background-color: #808074;
+          border-radius: 100%;
+          margin: 20px 10px;
+        }
+      
+        .slider__dots-item:hover {
+          opacity: .7;
+          cursor: pointer;
+        }
+     
+
+
+
+
+
+
