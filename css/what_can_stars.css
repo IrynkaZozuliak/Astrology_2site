@@ -43,7 +43,7 @@
     max-width: 670px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 22px;
     margin-top: 20px;
   }
   
@@ -105,7 +105,7 @@
     }
   }
   
-  .stars__text-container h3 {
+  .hh3_text_what_can {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -115,7 +115,7 @@
     line-height: 1.39;
   }
   
-  .stars__text-container p {
+  .pp_text_what_can  {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -162,7 +162,7 @@
     }
   }
   
-  .main__plus-minus p {
+  .stars__read--one {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
