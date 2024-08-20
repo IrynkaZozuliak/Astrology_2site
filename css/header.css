@@ -17,7 +17,7 @@
     }
     
     
-    .header__menu_link {
+    .header__nav-container {
         display: flex;
         flex-direction: row;
         justify-content:space-around;
@@ -30,7 +30,7 @@
     
     
     @media only screen and (min-width:320px) and (max-width:477px) {
-      .header__menu_link   {
+      .header__nav-container   {
         justify-content:space-between;
          
         margin-left: 25px;
@@ -39,7 +39,7 @@
     }
     
     @media only screen and (min-width:477px) and (max-width:901px) {
-      .header__menu_link   {
+      .header__nav-container   {
         justify-content:space-between;
         margin-left: 35px;
         margin-right: 35px;
@@ -47,7 +47,7 @@
     }
     
     @media only screen and (min-width:901px) and (max-width:1200px) {
-      .header__menu_link   {
+      .header__nav-container   {
         gap: 15px;
         margin-left: 15px;
         margin-right: 15px;
