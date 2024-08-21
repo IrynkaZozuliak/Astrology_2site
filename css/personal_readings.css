@@ -157,49 +157,28 @@ align-items: center;
 
 
 .personal__readings-links {
-    display: inline-block;
     background: #2ab6ff;
-    color: #ffffff;
     width: 90px;
     height: 35px;
-    text-align: center;
-    text-decoration: none;  
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
+    text-align: center; 
     border-radius: 5px;
     border-width: 5px;
-
+    padding: 8px 0;
+    transition: background 0.25s, color 0.25s;
 }
 
-.buttom_personal_readings button[type="submit"] {
-    display: inline-block;
-    font-size: 14px;
-    background: #2ab6ff;
-    color: #ffffff;
-    border: 1px solid transparent;
-    cursor: pointer;
-    
-    transition: background 0.25s, color 0.25s;
-  }
-  
-  .buttom_personal_readings button[type="submit"]:hover {
+.personal__readings-links:hover {
     color: #fff;
     background: #322c2c;
-  }
+}
 
-  .button__personal_container { 
-    width: 90px;
-    height: 35px;
-    border: none;
-    background-color: #2ab6ff;
+.personal__readings-link-order {
     text-align: center;
-    text-decoration: none;  
-    color: #322c2c;
-   
+    text-decoration: none; 
+    color: #ffffff;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    border-radius: 5px;
-    border-width: 5px;
-  }
+    font-size: 14px;
+}
+
