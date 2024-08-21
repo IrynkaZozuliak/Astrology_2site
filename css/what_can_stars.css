@@ -1,4 +1,4 @@
-.section__stars-say {
+.stars__can-say {
     margin-top: 80px;
     margin-bottom: 100px;
   }
@@ -105,7 +105,7 @@
     }
   }
   
-  .hh3_text_what_can {
+  .stars__text-container h3 {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -162,7 +162,7 @@
     }
   }
   
-  .stars__read--one {
+  .stars__read-one {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
