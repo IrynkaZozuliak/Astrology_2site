@@ -58,7 +58,7 @@
         margin-top: 15px;   
     }
 
-.consultation_foto_text_position {
+.personal__consultation-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,31 +66,31 @@
 }
 
 @media only screen and (min-width:320px)  {
-    .consultation_foto_text_position {
+    .personal__consultation-text {
         display: flex;
         flex-wrap: wrap;
     }
 }
 
 
-    .foto_girl_blok_three {
+    .consultation__image {
         width: 570px;
         border-radius: 7px;
     }
 
     @media only screen and (min-width:320px) and (max-width:601px) {
-        .foto_girl_blok_three {
+        .consultation__image {
             width: 330px;
         }
     }
 
     @media only screen and (min-width:601px) and (max-width:768px) {
-        .foto_girl_blok_three {
+        .consultation__image {
             width: 430px;
         }
     }
 
-    .foto_text_elements_consultation {
+    .personal__consultation-textleft {
         width: 570px;
         display: flex;
         flex-direction: column;
@@ -99,7 +99,7 @@
     }
 
     @media only screen and (min-width:320px) and (max-width:601px) {
-        .foto_text_elements_consultation {
+        .personal__consultation-textleft {
             width: 350px;
             margin-left: 15px;
             margin-right: 10px;
@@ -107,7 +107,7 @@
     }
 
     @media only screen and (min-width:601px) and (max-width:768px) {
-        .foto_text_elements_consultation {
+        .personal__consultation-textleft {
             width: 430px;
             margin-left: 10px;
             margin-right: 5px;
@@ -167,43 +167,47 @@
 
 
 
-
-    .buttom_personal_consultation button[type="submit"] {
-        display: inline-block;
-        font-size: 16px;
-        background: #2ab6ff;
-        color: #ffffff;
-        border: 1px solid transparent;
-        cursor: pointer;
-        
-        transition: background 0.25s, color 0.25s;
-      }
-      
-      .buttom_personal_consultation button[type="submit"]:hover {
-        color: #fff;
-        background: #322c2c;
-      }
-    
-      .button__personal_consultation_container { 
-        width: 224px;
-        height: 44px;
-        border: none;
-        background-color: #2ab6ff;
-        text-align: center;
-        text-decoration: none;  
-        color: #322c2c;
-       
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        border-radius: 6px;
-        border-width: 5px;
-      }
-
-      .poooo {
+    .personal__consultation-linkposition {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-top: 50px;
       }
+
+
+      .personal__consultation-links {
+        background: #2ab6ff;
+        width: 224px;
+        height: 44px;
+        text-align: center;
+        border-radius: 6px;
+        border-width: 5px;
+        padding: 12px 0;
+        transition:
+          background 0.25s,
+          color 0.25s;
+      }
+      
+      .personal__consultation-links:hover {
+        color: #fff;
+        background: #322c2c;
+      }
+      
+      .personal__consultation-link-order {
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+
+  
+    
+    
+     
+
+   
     
