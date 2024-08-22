@@ -1,4 +1,4 @@
-.blok_personal_consultation_top {
+.consultation__container {
     background: url(/img/background/background3.jpg);
     background-size: cover;
     background-position: center;
@@ -11,12 +11,12 @@
 
 
 
-    .personal_consultation_blok_position {
+    .consultation__container-elements {
         margin-top: 40px;
         margin-bottom: 50px;
     }
 
-    .hh2_personal_consultation_text {
+    .consultation__text-element h2 {
         font-size: 40px;
         font-family: "Josefin Sans", sans-serif;
         font-optical-sizing: auto;
@@ -32,7 +32,7 @@
     }
 
     @media only screen and (min-width:320px) and (max-width:601px) {
-        .hh2_personal_consultation_text {
+        .consultation__text-element h2 {
             font-size: 34px;
             text-align: center;
             margin-left: 15px;
@@ -41,7 +41,7 @@
     }
 
     @media only screen and (min-width:601px) and (max-width:991px) {
-        .hh2_personal_consultation_text {
+        .consultation__text-element h2 {
             font-size: 37px;
             text-align: center;
             margin-left: 15px;
@@ -49,7 +49,7 @@
         }
     }
     
-    .hhrr_line_size {
+    .consultation__text-line {
         width: 60px;
         height: 4px;
         border: none;
