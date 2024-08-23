@@ -1,64 +1,42 @@
 <section class="contact__form">
     <div class="contact__form-container">
-         
-        <div class="contact__form-text">
-            <div class="contact__form-text-position">
-                <div class="contact__form-element">
-                    <h2>Get your horoscope for
-                    <span>FREE</span> !</h2> 
-                 
-                </div>
-                <div class="contact__form-line">
-                    <hr class="contact__form-line-size">
-                    <p>Choose your sign of the zodiac, and I will send your monthly horoscope.</p>
-                </div>
-            </div>
+      <div class="contact__form-text">
+        <div class="contact__form-text-position">
+          <div class="contact__form-element">
+            <h2>Get your horoscope for <span>FREE</span> !</h2>
+          </div>
+          <div class="contact__form-line">
+            <hr class="contact__form-line-size" />
+            <p>Choose your sign of the zodiac, and I will send your monthly horoscope.</p>
+          </div>
         </div>
-
-
-        <div>
-            <form id="myForm" class="forma_botton_positions">
-                <div class="figura_position_horoscope_all"> 
-                    <div>
-                        <input class="figura_position_horoscope" type="text" required placeholder="Name*">
-                    </div>
-                     
-                    <div>
-                        <input class="figura_position_horoscope"   type="text" id="email" name="email" required placeholder="E-mail*">
-                    </div>
-
-                    <div>
-                        <label for="zodiac*"></label>
-                        <select class="figura_position_horoscope" type="text" id="email" name="lunch" required placeholder="zodiac*">
-                            <option class="zodiak_text_one">Zodiac*</option>
-                            <option class="zodiak_text">Aries</option>
-                            <option class="zodiak_text">Taurus</option>
-                            <option class="zodiak_text">Gemini</option>
-                            <option class="zodiak_text">Cancer</option>
-                            <option class="zodiak_text">Leo</option>
-                            <option class="zodiak_text">Virgo</option>
-                            <option class="zodiak_text">Libra</option>
-                            <option class="zodiak_text">Scorpio</option>
-                            <option class="zodiak_text">Sagittarius</option>
-                            <option class="zodiak_text">Capricorn</option>
-                            <option class="zodiak_text">Aquarius</option>
-                            <option class="zodiak_text">Pisces</option>
-                        </select>   
-                    </div>
-                </div>
-
-                <div class="registration__form">
-                    
-                        <a class="registration__form-link" href="index.html" >Get for FREE</a>
-                    
-                </div>
-                
-                        
-             
-            </form> 
-        </div>
-        
-         
+      </div>
+  
+      <div>
+        <form id="myForm" class="forma__registration-position" action="https://formspree.io/f/mkgwprdb" method="post">
+          <input class="forma__registration-item" type="text" name="name" required placeholder="Name*" />
+  
+          <input class="forma__registration-item" type="email" name="email" required placeholder="E-mail*" />
+  
+          <select class="forma__registration-item" type="text" id="email" name="zodiak" required placeholder="zodiac*">
+            <option class="forma__zodiak-text-focus">Zodiac*</option>
+            <option class="forma__zodiak-text">Aries</option>
+            <option class="forma__zodiak-text">Taurus</option>
+            <option class="forma__zodiak-text">Gemini</option>
+            <option class="forma__zodiak-text">Cancer</option>
+            <option class="forma__zodiak-text">Leo</option>
+            <option class="forma__zodiak-text">Virgo</option>
+            <option class="forma__zodiak-text">Libra</option>
+            <option class="forma__zodiak-text">Scorpio</option>
+            <option class="forma__zodiak-text">Sagittarius</option>
+            <option class="forma__zodiak-text">Capricorn</option>
+            <option class="forma__zodiak-text">Aquarius</option>
+            <option class="forma__zodiak-text">Pisces</option>
+          </select>
+  
+          <input type="submit" value="Get for FREE" class="registration__form-link" />
+        </form>
+      </div>
     </div>
-</section>
-   
+  </section>
+  
