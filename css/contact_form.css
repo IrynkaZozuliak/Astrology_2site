@@ -249,33 +249,30 @@
         } 
     
      
-        
+
   .registration__form-link {
-    background: #2ab6ff;
-    color: #d13d3d;
     width: 370px;
     height: 45px;
+    padding: 16px 0;
+  
+    background: #2ab6ff;
+    color: #322c2c;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+    font-optical-sizing: auto;
     text-align: center;
-    border-radius: 6px;
-    border-width: 5px;
-    padding: 8px 0;
-    transition: background 0.25s, color 0.25s;
+    text-decoration: none;
+    
   }
   
   .registration__form-link:hover {
     color: #322c2c;
     background: #fff;
+    transition: 0.5s;
   }
   
-  .personal__consultation-link-order {
-    text-align: center;
-    text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: 14px;
-  }
-
  
   
 
