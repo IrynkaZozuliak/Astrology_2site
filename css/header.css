@@ -289,9 +289,8 @@
 
  
 .header__text-links {
-  width: 270px;
   height: 51px;
-  padding: 16px 0;
+  padding: 16px 33px;
 
   background: #2ab6ff;
   color: #ffffff;
