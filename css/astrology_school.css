@@ -8,13 +8,13 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    }
-.astrology__school-margin {
+  }
+  .astrology__school-margin {
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.astrology__school-text h2 {
+  }
+  
+  .astrology__school-text h2 {
     font-size: 40px;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -22,60 +22,59 @@
     font-style: normal;
     color: #4f4949;
     line-height: 1.3;
-
+  
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
-}
-
-.astrology__school-line {
+  }
+  
+  .astrology__school-line {
     width: 60px;
     height: 4px;
     border: none;
     color: #2ab6ff;
     background: #2ab6ff;
-    margin-top: 15px;   
-}
-
-@media only screen and (min-width:320px) and (max-width:601px) {
+    margin-top: 15px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
     .astrology__school-text h2 {
-        font-size: 34px;
+      font-size: 34px;
     }
-} 
-
-@media only screen and (min-width:601px) and (max-width:991px) {
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
     .astrology__school-text h2 {
-        font-size: 37px;
+      font-size: 37px;
     }
-} 
-
-
-.astrology__school-elements {
+  }
+  
+  .astrology__school-elements {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-}
-
-@media only screen and (min-width:320px)  {
+  }
+  
+  @media only screen and (min-width: 320px) {
     .astrology__school-elements {
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
     }
-} 
-
-.astrology__school-elements--color {
+  }
+  
+  .astrology__school-elements--color {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-
+  
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.foto_size_position_astrology {
+  }
+  
+  .astrology__school-image img {
     margin: 40px 30px 30px 30px;
     width: 310px;
     height: 450px;
@@ -84,23 +83,23 @@
     object-position: 50% 50%;
     z-index: 0;
     position: relative;
-}
-
-@media only screen and (min-width:320px) and (max-width:601px) {
-    .foto_size_position_astrology {
-        width: 220px;
-        height: 320px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .astrology__school-image img {
+      width: 220px;
+      height: 320px;
     }
-} 
-
-@media only screen and (min-width:601px) and (max-width:991px) {
-    .foto_size_position_astrology {
-        width: 270px;
-        height: 370px;
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .astrology__school-image img {
+      width: 270px;
+      height: 370px;
     }
-} 
-
-.hh3_astrology_school {
+  }
+  
+  .astrology__school-title h3 {
     font-size: 22px;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -109,7 +108,7 @@
     color: #fff;
     line-height: 1.32;
     text-align: center;
-
+  
     background-color: #4f4949;
     margin-top: -70px;
     position: absolute;
@@ -117,58 +116,53 @@
     width: 270px;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-@media only screen and (min-width:320px) and (max-width:601px) {
-    .hh3_astrology_school {
-        width: 220px; 
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
+    .astrology__school-title h3 {
+      width: 220px;
     }
-} 
-
-@media only screen and (min-width:601px) and (max-width:991px) {
-    .hh3_astrology_school {
-        width: 270px;
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .astrology__school-title h3 {
+      width: 270px;
     }
-} 
-
-.hh3_astrology_school_dark_text {
+  }
+  
+  .astrology__school-title {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-
-.buttom_asctrology_school button[type="submit"] {
-    display: inline-block;
-    font-size: 16px;
+  }
+  
+  .astrology__school-link {
+    width: 120px;
+    height: 45px;
+    padding: 15px 0;
+  
     background: #2ab6ff;
-    color: #ffffff;
-    border: 1px solid transparent;
-    cursor: pointer;
-    transition: background 0.25s, color 0.25s;
-
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+    border: #2ab6ff;
+    font-optical-sizing: auto;
+    text-align: center;
+    text-decoration: none;
     margin-top: 10px;
     margin-bottom: 40px;
   }
   
-  .buttom_asctrology_school button[type="submit"]:hover {
+  .astrology__school-link:hover {
     color: #fff;
     background: #322c2c;
+    transition: 0.5s;
   }
-
-  .button__asctrology_school_container { 
-    width: 120px;
-    height: 45px;
-    border: none;
-    background-color: #2ab6ff;
-    text-align: center;
-    text-decoration: none;  
-    color: #322c2c;
-   
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    border-radius: 5px;
-    border-width: 5px;
+  
+  .astrology__school-link a {
+    text-decoration: none;
+    color: #fff;
   }
-
+  
