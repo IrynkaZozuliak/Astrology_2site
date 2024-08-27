@@ -1,5 +1,5 @@
 .join__instagram {
-    background: url(/img/background/background10.jpg);
+    background: url('../img/background/background10.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

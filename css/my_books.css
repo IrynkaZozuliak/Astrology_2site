@@ -1,5 +1,5 @@
 .my__books {
-    background: linear-gradient(rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7)), url(/img/background/background9move.jpg);
+    background: linear-gradient(rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7)), url('../img/background/background9move.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

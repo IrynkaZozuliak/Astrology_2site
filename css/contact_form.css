@@ -1,5 +1,5 @@
 .contact__form {
-    background: url(/img/background/background5.jpg);
+    background: url('../img/background/background5.jpg');
     display: flex;
     margin: 0;
     padding: 0;

@@ -1,5 +1,5 @@
 .webinar__time {
-  background-image: linear-gradient(rgba(50, 44, 44, 0.99) 0%, rgba(39, 34, 34, 0.7) 50%), url(/img/background/background7.jpg);
+  background-image: linear-gradient(rgba(50, 44, 44, 0.99) 0%, rgba(39, 34, 34, 0.7) 50%), url('../img/background/background7.jpg');
   background-size: cover;
   background-position: center;
   display: flex;

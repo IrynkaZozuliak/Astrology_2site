@@ -1,5 +1,5 @@
 .horoscope {
-    background: url(/img/background/background4.png);
+    background: url('../img/background/background4.png');
     background-size: cover;
     background-position: center;
     display: flex;

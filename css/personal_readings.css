@@ -1,5 +1,5 @@
 .personal__readings-back {
-    background: url(/img/background/background2.png);
+    background: url('../img/background/background2.png');
     background-size: cover;
     background-position: center;
     display: flex;

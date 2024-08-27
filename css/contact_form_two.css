@@ -1,5 +1,5 @@
 .contact__question {
-  background: url(/img/background/background12.png);
+  background: url('../img/background/background12.png');
   background-size: cover;
   background-position: bottom;
   display: flex;

@@ -1,5 +1,5 @@
 .consultation__container {
-    background: url(/img/background/background3.jpg);
+    background: url('../img/background/background3.jpg');
     background-size: cover;
     background-position: 5% 95%;
     display: flex;

@@ -1,5 +1,5 @@
 .kate__sun {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(236, 241, 241, 0.726)), url(/img/background/background11.png);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(236, 241, 241, 0.726)), url('../img/background/background11.png');
     background-size: cover;
     background-position: top;
     display: flex;

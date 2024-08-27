@@ -1,5 +1,5 @@
 .contacts {
-    background: url(/img/background/background13.png);
+    background: url('../img/background/background13.png');
     background-size: cover;
     background-position: top;
     display: flex;

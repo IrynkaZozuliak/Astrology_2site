@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7)), url(/img/background/background14.webp);
+    background: linear-gradient(rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7)), url('../img/background/background14.webp');
     background-size: cover;
     background-position: top;
     display: flex;

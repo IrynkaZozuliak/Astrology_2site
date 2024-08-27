@@ -1,5 +1,5 @@
 .astrology__school {
-    background: url(/img/background/background6.jpg);
+    background: url('../img/background/background6.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
