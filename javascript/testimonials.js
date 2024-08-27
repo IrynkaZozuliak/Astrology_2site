@@ -55,7 +55,6 @@ const infiniteScroll = () => {
     }
     // Clear existing timeout & start autoplay if mouse is not hovering over carousel
     clearTimeout(timeoutId);
-    if(!testimonials_wrapper.matches(":hover")) autoPlay();
 }
 const autoPlay = () => {
     if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
