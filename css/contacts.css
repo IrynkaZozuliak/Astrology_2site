@@ -90,7 +90,7 @@
   }
   
   .contacts__logo {
-    background: url(/img/person_consultat/fon_blok3.webp);
+    background: url('../img/person_consultat/fon_blok3.webp');
     background-size: cover;
     background-position: center;
     display: flex;

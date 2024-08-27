@@ -163,7 +163,7 @@
 
    
     .horoscope__logo-size {
-        background: url(/img/fon_blok4.webp);
+        background: url('../img/fon_blok4.webp');
         background-size: cover;
         background-position: center;
         display: flex;
