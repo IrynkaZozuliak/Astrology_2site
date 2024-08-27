@@ -1,291 +1,211 @@
-.blok_contact_form_two_top {
-    background: url(/img/background/background12.png);
-    background-size: cover;
-    background-position: bottom;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    overflow-x: hidden;    
-    
+.contact__question {
+  background: url(/img/background/background12.png);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
-.blok_contact_form_two_position {
-    margin-top: 100px;
-    margin-bottom: 7px;
+.contact__question-position {
+  margin-top: 100px;
+  margin-bottom: 7px;
 }
 
-
-
-.contact_Us_form_location {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.question__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.contact_Us_form_two {
-    padding-top: 70px;
-    padding-bottom: 60px;
-    width: 570px;
-   
-    background-color: #ffffff;   
-    border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+.question__container-size {
+  padding-top: 70px;
+  padding-bottom: 60px;
+  width: 570px;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-@media only screen and (min-width:320px) and (max-width:601px) {
-    .contact_Us_form_two  {
-      width: 320px;
-      margin-left: 30px;
-    }
-  }
-
-  @media only screen and (min-width:601px) and (max-width:991px) {
-    .contact_Us_form_two  {
-      width: 400px;  
-      margin-left: 30px;
-    }
-  }
-
-  @media only screen and (min-width:991px) and (max-width:1220px) {
-    .contact_Us_form_two  {
-      width: 450px;
-      margin-left: 30px;
-    }
-  }
-
-
-   
-  .text_contsct_us_two_position {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-
-  @media only screen and (min-width:320px) and (max-width:601px)  {
-    .text_contsct_us_two_position {
-      margin-left: 60px;
-      margin-right: 60px;
-    }
-  }
-
-  @media only screen and (min-width:601px) and (max-width:991px)  {
-    .text_contsct_us_two_position {
-      margin-left: 65px;
-      margin-right: 65px;
-    }
-  }
-
-  .hh3_contactUs_two_textt {
-    font-size: 30px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: bold;
-    color: #4f4949;
-    line-height: 1.33;
-    text-align: center;
-}
-
-@media only screen and (min-width:320px) and (max-width:601px)  {
-  .hh3_contactUs_two_textt  {
-      font-size: 24px;
+@media only screen and (min-width: 320px) and (max-width: 601px) {
+  .question__container-size {
+    width: 320px;
+    margin-left: 30px;
   }
 }
 
-@media only screen and (min-width:601px) and (max-width:991px)  {
-  .hh3_contactUs_two_textt  {
-      font-size: 28px;
-  }
-}
-
-  .pp_contactUs_two {
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #4f4949;
-    line-height: 1.4;
-    margin-top: 20px;
-    margin-bottom: 30px;
-
-    text-align: center;
-}
-
-@media only screen and (min-width:320px) and (max-width:991px)  {
-  .pp_contactUs_two {
-      font-size: 18px;
-  }
-}
-
-
-
-
-
-
-
-
-.figura_position_ContactUss_all {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-     
-}
-.figura_position_contactUss {
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .question__container-size {
     width: 400px;
-    height: 47px;
-    background-color: rgba(88, 88, 88, 0.12);
-    border-style: solid;
-    border-color: rgba(88, 88, 88, 0.001);
-    border-radius: 5px;
-
-    font-size: 16px;
-    line-height: 1.7;
-    font-weight: 400;
-    font-family: 'Lato',sans-serif;
-    color: #808074;
-    padding: 13px 18px;
+    margin-left: 30px;
+  }
 }
 
-@media only screen and (min-width:320px) and (max-width:601px) {
-    .figura_position_contactUss  {
-      width: 200px;
-      height: 45px;
-      font-size: 12px;
-    }
+@media only screen and (min-width: 991px) and (max-width: 1220px) {
+  .question__container-size {
+    width: 450px;
+    margin-left: 30px;
   }
-
-  @media only screen and (min-width:601px) and (max-width:991px) {
-    .figura_position_contactUss  {
-      width: 300px;
-      height: 45px;
-      font-size: 14px;
-    }
-  }
-
-  @media only screen and (min-width:991px) and (max-width:1220px) {
-    .figura_position_contactUss  {
-      width: 350px;
-      height: 45px;
-      font-size: 14px;
-    }
-  }
-
-.figura_position_contactUss:focus{
-    border-color: rgb(81, 149, 228);}
-
-
-.figura_position_textare {
-    width: 400px;
-    height: 47px;
-    background-color: rgba(88, 88, 88, 0.12);
-    border-style: solid;
-    border-color: rgba(88, 88, 88, 0.001);
-    border-radius: 3px;
-
-    font-size: 15px;
-    line-height: 1.7;
-    font-weight: 400;
-    font-family: 'Lato',sans-serif;
-    color: #808074;
-    padding: 13px 18px;
 }
 
-@media only screen and (min-width:320px) and (max-width:601px) {
-    .figura_position_textare  {
-        width: 200px;
-        height: 47px;
-        font-size: 12px;
-    }
+.question__container-text {
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
+  .question__container-text {
+    margin-left: 60px;
+    margin-right: 60px;
   }
+}
 
-  @media only screen and (min-width:601px) and (max-width:991px) {
-    .figura_position_textare  {
-        width: 300px;
-        height: 47px;
-        font-size: 12px;
-    }
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .question__container-text {
+    margin-left: 65px;
+    margin-right: 65px;
   }
+}
 
-  @media only screen and (min-width:991px) and (max-width:1220px) {
-    .figura_position_textare  {
-        width: 350px;
-        height: 47px;
-        font-size: 12px;
-    }
+.question__container-text h3 {
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  color: #4f4949;
+  line-height: 1.33;
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
+  .question__container-text h3 {
+    font-size: 24px;
   }
+}
 
-.figura_position_textare:focus{
-    border-color: rgb(81, 149, 228);}
-
-
-
-
-
-    .buttom_contact_form_twoo button[type="submit"] {
-        display: inline-block;
-        font-size: 16px;
-        background: #2ab6ff;
-        color: #ffffff;
-        border: 1px solid transparent;
-        cursor: pointer;
-        
-        transition: background 0.25s, color 0.25s;
-      }
-      
-      .buttom_contact_form_twoo button[type="submit"]:hover {
-        color: #fff;
-        background: #322c2c;
-      }
-    
-      .button__contact_form_two_container { 
-        width: 400px;
-        height: 45px;
-        border: none;
-        background-color: #2ab6ff;
-        text-align: center;
-        text-decoration: none;  
-        color: #322c2c;
-       
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        border-radius: 6px;
-        border-width: 5px;
-      }
-
-      .contact_form_two_all {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 50px;
-      }
-
-  @media only screen and (min-width:320px) and (max-width:601px) {
-    .buttom_contact_form_twoo button[type="submit"]  {
-      width: 200px;  
-      padding: 10px 80px;
-        font-size: 12px;
-    }
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .question__container-text h3 {
+    font-size: 28px;
   }
+}
 
-  @media only screen and (min-width:601px) and (max-width:991px) {
-    .buttom_contact_form_twoo button[type="submit"]  {
-      width: 300px;   
-      padding: 10px 90px;
-        font-size: 12px;
-    }
+.question__container-text p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4f4949;
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .question__container-text p {
+    font-size: 18px;
   }
+}
 
-  @media only screen and (min-width:991px) and (max-width:1220px) {
-    .buttom_contact_form_twoo button[type="submit"]  {
-      width: 350px;   
-      padding: 10px 150px;
-        font-size: 12px;
-    }
+.question__container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.question__form-size {
+  width: 400px;
+  height: 47px;
+  background-color: #322c2c1f;
+  border-style: solid;
+  border-color: rgba(88, 88, 88, 0.001);
+  border-radius: 5px;
+
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 500;
+
+  padding: 13px 18px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
+  .question__form-size {
+    width: 200px;
+    height: 45px;
+    font-size: 12px;
   }
+}
 
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .question__form-size {
+    width: 300px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
 
+@media only screen and (min-width: 991px) and (max-width: 1220px) {
+  .question__form-size {
+    width: 350px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
 
+.question__form-size:focus {
+  border-color: rgb(81, 149, 228);
+}
 
+.question__form-send {
+  width: 400px;
+  height: 45px;
+  padding: 15px 0;
 
+  background: #2ab6ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 5px;
+  border: #2ab6ff;
+  font-optical-sizing: auto;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.question__form-send:hover {
+  color: #fff;
+  background: #4f4949;
+  transition: 0.5s;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
+  .question__form-send {
+    width: 200px;
+    height: 45px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .question__form-send {
+    width: 300px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1220px) {
+  .question__form-send {
+    width: 350px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
