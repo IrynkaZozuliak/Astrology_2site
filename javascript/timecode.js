@@ -4,36 +4,34 @@ hours = document.querySelector(".hours .number");
 days = document.querySelector(".days .number");
 
 let secValue = 40,
-    minValue = 27,
-    hourValue = 22,
-    dayValue = 1083;
+  minValue = 27,
+  hourValue = 22,
+  dayValue = 1083;
 
 const timeFunction = setInterval(() => {
-    secValue--;
+  secValue--;
 
-    if (secValue === 0) {
-        minValue--;
-        secValue = 60;
-    }
+  if (secValue === 0) {
+    minValue--;
+    secValue = 60;
+  }
 
-    if (minValue === 0) {
-        hourValue--;
-        minValue = 60;
-    }
+  if (minValue === 0) {
+    hourValue--;
+    minValue = 60;
+  }
 
-    if (hourValue === 0) {
-        dayValue--;
-        hourValue = 60;
-    }
+  if (hourValue === 0) {
+    dayValue--;
+    hourValue = 60;
+  }
 
-    if (dayValue === 0) {
-        clearInterval(timeFunction);
-    }
+  if (dayValue === 0) {
+    clearInterval(timeFunction);
+  }
 
-    
-    seconds.textContent = secValue < 10 ? `0${secValue}` : secValue;
-    minutes.textContent = minValue < 10 ? `0${minValue}` : minValue;
-    hours.textContent = hourValue < 10 ? `0${hourValue}` : hourValue;
-    days.textContent = dayValue < 10 ? `0${dayValue}` : dayValue;
-}, 1000);   //1000ms = 1s
-
+  seconds.textContent = secValue < 10 ? `0${secValue}` : secValue;
+  minutes.textContent = minValue < 10 ? `0${minValue}` : minValue;
+  hours.textContent = hourValue < 10 ? `0${hourValue}` : hourValue;
+  days.textContent = dayValue < 10 ? `0${dayValue}` : dayValue;
+}, 1000); //1000ms = 1s

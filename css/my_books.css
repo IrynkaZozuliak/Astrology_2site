@@ -1,170 +1,169 @@
 .my__books {
-    background: linear-gradient(rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7)), url('../img/background/background9move.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    overflow-x: hidden;
-  }
-  
-  .my__books-position {
-    margin-top: 90px;
-    margin-bottom: 100px;
-  }
-  
+  background: linear-gradient(rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7)), url("../img/background/background9move.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.my__books-position {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.my__books-text h2 {
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  line-height: 1.3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
   .my__books-text h2 {
-    font-size: 40px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    color: #fff;
-    line-height: 1.3;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 34px;
   }
-  
-  @media only screen and (min-width: 320px) and (max-width: 601px) {
-    .my__books-text h2 {
-      font-size: 34px;
-    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .my__books-text h2 {
+    font-size: 37px;
   }
-  
-  @media only screen and (min-width: 601px) and (max-width: 991px) {
-    .my__books-text h2 {
-      font-size: 37px;
-    }
-  }
-  
-  .my__books-text--line {
-    width: 60px;
-    height: 4px;
-    border: none;
-    color: #fff;
-    background: #fff;
-    margin-top: 15px;
-    margin-bottom: 50px;
-  }
-  
+}
+
+.my__books-text--line {
+  width: 60px;
+  height: 4px;
+  border: none;
+  color: #fff;
+  background: #fff;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.my__books-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media only screen and (min-width: 320px) {
   .my__books-content {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    flex-wrap: wrap;
   }
-  
-  @media only screen and (min-width: 320px) {
-    .my__books-content {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-  
+}
+
+.books__content-size {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 7px;
+  width: 570px;
+  height: 260px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
   .books__content-size {
     display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    border-radius: 7px;
-    width: 570px;
-    height: 260px;
+    flex-direction: column;
+    width: 310px;
+    height: 290px;
   }
-  
-  @media only screen and (min-width: 320px) and (max-width: 601px) {
-    .books__content-size {
-      display: flex;
-      flex-direction: column;
-      width: 310px;
-      height: 290px;
-    }
-  }
-  
+}
+
+.books__image img {
+  width: 285px;
+  height: 260px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  z-index: 0;
+  position: relative;
+  border-radius: 7px 0px 0px 7px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
   .books__image img {
-    width: 285px;
-    height: 260px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    z-index: 0;
-    position: relative;
-    border-radius: 7px 0px 0px 7px;
+    width: 100%;
+    height: 120px;
+    border-radius: 7px;
   }
-  
-  @media only screen and (min-width: 320px) and (max-width: 601px) {
-    .books__image img {
-      width: 100%;
-      height: 120px;
-      border-radius: 7px;
-    }
-  }
-  
+}
+
+.books__text {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
   .books__text {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
   }
-  
-  @media only screen and (min-width: 320px) and (max-width: 601px) {
-    .books__text {
-      padding-left: 15px;
-      padding-right: 10px;
-      padding-top: 20px;
-    }
-  }
-  
+}
+
+.books__text h3 {
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #322c2c;
+  line-height: 1.32;
+
+  margin-bottom: 38px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
   .books__text h3 {
-    font-size: 22px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    color: #322c2c;
-    line-height: 1.32;
-  
-    margin-bottom: 38px;
+    margin-bottom: 18px;
   }
-  
-  @media only screen and (min-width: 320px) and (max-width: 601px) {
-    .books__text h3 {
-      margin-bottom: 18px;
-    }
+}
+
+.my__books-link {
+  background: #2ab6ff;
+  width: 85px;
+  height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  border-width: 5px;
+  padding: 14px 0;
+  transition:
+    background 0.25s,
+    color 0.25s;
+}
+
+.my__books-link:hover {
+  color: #fff;
+  background: #322c2c;
+}
+
+.my__books-link-order {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 601px) {
+  .books__image img {
+    width: 100%;
+    height: 120px;
+    border-radius: 7px;
   }
-  
-  .my__books-link {
-    background: #2ab6ff;
-    width: 85px;
-    height: 45px;
-    text-align: center;
-    border-radius: 5px;
-    border-width: 5px;
-    padding: 14px 0;
-    transition:
-      background 0.25s,
-      color 0.25s;
-  }
-  
-  .my__books-link:hover {
-    color: #fff;
-    background: #322c2c;
-  }
-  
-  .my__books-link-order {
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: 16px;
-  }
-  
-  @media only screen and (min-width: 320px) and (max-width: 601px) {
-    .books__image img {
-      width: 100%;
-      height: 120px;
-      border-radius: 7px;
-    }
-  }
-  
+}

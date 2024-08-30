@@ -1,5 +1,5 @@
 .consultation__container {
-    background: url('../img/background/background3.jpg');
+    background: url("../img/background/background3.jpg");
     background-size: cover;
     background-position: 5% 95%;
     display: flex;
@@ -7,207 +7,193 @@
     padding: 0;
     flex-direction: column;
     overflow-x: hidden;
-    }
-
-
-
-    .consultation__container-elements {
-        margin-top: 40px;
-        margin-bottom: 50px;
-    }
-
+  }
+  
+  .consultation__container-elements {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .consultation__text-element h2 {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #4f4949;
+    line-height: 1.3;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
     .consultation__text-element h2 {
-        font-size: 40px;
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        color: #4f4949;
-        line-height: 1.3;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 40px;
+      font-size: 34px;
+      text-align: center;
+      margin-left: 15px;
+      margin-right: 15px;
     }
-
-    @media only screen and (min-width:320px) and (max-width:601px) {
-        .consultation__text-element h2 {
-            font-size: 34px;
-            text-align: center;
-            margin-left: 15px;
-            margin-right: 15px;
-        }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+    .consultation__text-element h2 {
+      font-size: 37px;
+      text-align: center;
+      margin-left: 15px;
+      margin-right: 15px;
     }
-
-    @media only screen and (min-width:601px) and (max-width:991px) {
-        .consultation__text-element h2 {
-            font-size: 37px;
-            text-align: center;
-            margin-left: 15px;
-            margin-right: 15px;
-        }
-    }
-    
-    .consultation__text-line {
-        width: 60px;
-        height: 4px;
-        border: none;
-        color: #2ab6ff;
-        background: #2ab6ff;
-        margin-top: 15px;   
-    }
-
-.personal__consultation-text {
+  }
+  
+  .consultation__text-line {
+    width: 60px;
+    height: 4px;
+    border: none;
+    color: #2ab6ff;
+    background: #2ab6ff;
+    margin-top: 15px;
+  }
+  
+  .personal__consultation-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-}
-
-@media only screen and (min-width:320px)  {
+  }
+  
+  @media only screen and (min-width: 320px) {
     .personal__consultation-text {
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
     }
-}
-
-
+  }
+  
+  .consultation__image {
+    width: 570px;
+    border-radius: 7px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
     .consultation__image {
-        width: 570px;
-        border-radius: 7px;
+      width: 330px;
     }
-
-    @media only screen and (min-width:320px) and (max-width:601px) {
-        .consultation__image {
-            width: 330px;
-        }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .consultation__image {
+      width: 430px;
     }
-
-    @media only screen and (min-width:601px) and (max-width:768px) {
-        .consultation__image {
-            width: 430px;
-        }
-    }
-
+  }
+  
+  .personal__consultation-textleft {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 601px) {
     .personal__consultation-textleft {
-        width: 570px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 30px;
+      width: 350px;
+      margin-left: 15px;
+      margin-right: 10px;
     }
-
-    @media only screen and (min-width:320px) and (max-width:601px) {
-        .personal__consultation-textleft {
-            width: 350px;
-            margin-left: 15px;
-            margin-right: 10px;
-        }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .personal__consultation-textleft {
+      width: 430px;
+      margin-left: 10px;
+      margin-right: 5px;
     }
-
-    @media only screen and (min-width:601px) and (max-width:768px) {
-        .personal__consultation-textleft {
-            width: 430px;
-            margin-left: 10px;
-            margin-right: 5px;
-        }
-    }
-
-.personal_consultation_elements_position {
+  }
+  
+  .personal_consultation_elements_position {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
-}
-
-    .logo_personal_consultation {
-        background: url('../img/person_consultat/fon_blok3.webp');
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        position: relative;
-        width: 70px;
-        height: 70px; 
-    }
-
-    @media only screen and (min-width:320px) and (max-width:477px) {
-        .logo_personal_consultation {
-            width: 50px;
-            height: 50px;
-        }
-    }
-
-    @media only screen and (min-width:477px) and (max-width:601px) {
-        .logo_personal_consultation {
-            width: 60px;
-            height: 60px;
-        }
-    }
-
-    .hh3_personal_consultation_textt {
-        font-size: 22px;
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        color: #322c2c;
-        line-height: 1.32;
-    }
-
-    .color_elements {
-        color: #fff;
-        width: 55%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;    
-    }
-
-
-
-    .personal__consultation-linkposition {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 50px;
-      }
-
-
-      .personal__consultation-links {
-        background: #2ab6ff;
-        width: 224px;
-        height: 44px;
-        text-align: center;
-        border-radius: 6px;
-        border-width: 5px;
-        padding: 12px 0;
-        transition:
-          background 0.25s,
-          color 0.25s;
-      }
-      
-      .personal__consultation-links:hover {
-        color: #fff;
-        background: #322c2c;
-      }
-      
-      .personal__consultation-link-order {
-        text-align: center;
-        text-decoration: none;
-        color: #ffffff;
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-size: 16px;
-      }
-
-
+  }
   
-    
-    
-     
-
-   
-    
+  .logo_personal_consultation {
+    background: url("../img/person_consultat/fon_blok3.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 70px;
+    height: 70px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 477px) {
+    .logo_personal_consultation {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 477px) and (max-width: 601px) {
+    .logo_personal_consultation {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  .hh3_personal_consultation_textt {
+    font-size: 22px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #322c2c;
+    line-height: 1.32;
+  }
+  
+  .color_elements {
+    color: #fff;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .personal__consultation-linkposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .personal__consultation-links {
+    background: #2ab6ff;
+    width: 224px;
+    height: 44px;
+    text-align: center;
+    border-radius: 6px;
+    border-width: 5px;
+    padding: 12px 0;
+    transition:
+      background 0.25s,
+      color 0.25s;
+  }
+  
+  .personal__consultation-links:hover {
+    color: #fff;
+    background: #322c2c;
+  }
+  
+  .personal__consultation-link-order {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
