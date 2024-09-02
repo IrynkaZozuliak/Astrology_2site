@@ -230,3 +230,10 @@
   background: #fff;
   transition: 0.5s;
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 477px) {
+  .registration__form-link {
+    width: 320px;
+  }
+}
